@@ -49,7 +49,7 @@ function exportToExcel() {
 
     // Create a worksheet
     var ws = XLSX.utils.aoa_to_sheet([
-        ['ID', 'Nombre de Producto', 'Código', 'Cantidad', 'Precio', 'Fecha de actualización', 'Trasacción', 'Cliente', 'NIF/CIF', 'Notas']
+        ['ID', 'Producto', 'Código', 'Cantidad', 'Precio', 'Total','Fecha', 'Trasacción', 'Cliente', 'NIF/CIF', 'Notas']
     ].concat(filteredData));
 
     // Create a workbook
