@@ -74,9 +74,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 function redirectToIndex($message) {
+    $timestamp = time();
     echo "<script>
             alert('$message');
-            window.location.href = 'http://localhost/inventario-excel/';
+            window.location.href = 'http://localhost/inventario-excel/?timestamp=$timestamp';
           </script>";
     exit();
 }

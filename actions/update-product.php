@@ -66,9 +66,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // Función para redirigir de vuelta al index con un mensaje
 function redirectToIndex($message) {
+    $timestamp = time();
     echo "<script>
             alert('$message');
-            window.location.href = 'http://localhost/inventario-excel/';
+            window.location.href = 'http://localhost/inventario-excel/?timestamp=$timestamp';
           </script>";
     exit();
 }
