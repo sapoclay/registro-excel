@@ -1,4 +1,4 @@
-## Registro de transacciones con guardado en Excel
+## Registro de transacciones con exportación a Excel
 
 Esta intefaz web permitirá a los usuarios guardar en la base de datos SQL (con el archivo que viene incluido en el repositorio) las transacciones de negocio (compra y venta) que realice. Además permite añadir notas a cada una de las transacciones. 
 Para terminar se podrá guardar todo el contenido de la base de datos en una hoja de Excel.
@@ -18,3 +18,5 @@ Para terminar se podrá guardar todo el contenido de la base de datos en una hoj
 ### Cosas a corregir
 
 - El tratamiento de los puntos y las comas en el precio y la cantidad del producto.
+
+Este pequeño registro de transacciones exportación a Excel se puede ver funcionando en: https://inventarioexcel.entreunosyceros.net/
